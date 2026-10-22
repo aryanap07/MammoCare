@@ -99,6 +99,26 @@ The BreaKHis filenames do not provide an independently verified clinical patient
 
 Different suffixes remain distinct identifiers unless documented evidence supports merging them. Consequently, this protocol prevents a grouping ID from crossing partitions, but it cannot guarantee that every image from the same real-world patient is separated. Results described as *group-level* below must not be interpreted as verified patient-level performance. This limitation should be resolved or assessed through sensitivity analysis before making stronger patient-level claims.
 
+### Example Images
+
+<table align="center">
+  <tr>
+    <td align="center" width="50%">
+      <img src="assets/sample_malignant.jpg" height="300" alt="Example histopathology image labelled malignant"><br><br>
+      <img src="https://img.shields.io/badge/Malignant-D01C47?style=for-the-badge" alt="Malignant">
+    </td>
+    <td align="center" width="50%">
+      <img src="assets/sample_benign.jpg" height="300" alt="Example histopathology image labelled benign"><br><br>
+      <img src="https://img.shields.io/badge/Benign-1F1155?style=for-the-badge" alt="Benign">
+    </td>
+  </tr>
+</table>
+
+<p align="center"><sub>Example histopathology images and their class labels.</sub></p>
+
+> [!NOTE]
+> These images are illustrative only and are not intended for diagnosis.
+
 ## Models and Reproducibility
 
 | Model | Initialisation | Current status |
